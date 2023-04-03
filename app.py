@@ -865,7 +865,7 @@ elif variable == 'Order Date':
                         )
         fig.update_xaxes(title_font_family="Sitka Small", title_font_size= 20)
         fig.update_yaxes(title_font_family="Sitka Small", title_font_size= 20)
-        fig.write_image("by-month.png",format="png", scale=1,engine='kaleido')
+        #fig.write_image("by-month.png",format="png", scale=1,engine='kaleido')
         
         with c1:
             st.write(fig)
