@@ -1244,7 +1244,7 @@ elif option2 == 'K-Mean':
         st.markdown("<h4 style='text-align:'left'>Order Canceled Data",unsafe_allow_html=True) 
         c1, c2 = st.columns([2,1])
         with c1:
-            st.image("Clustering/cancel_df/k_mean_K.png")
+            st.image("Clustering/cancel_df/k_mean_k.png")
         with c2:
             
             with st.expander('', expanded=True):
