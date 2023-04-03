@@ -1046,7 +1046,7 @@ elif variable == 'Gender':
 elif variable == 'Total':
     st.markdown("<h3 style='text-align:'left'>Total</h3>",unsafe_allow_html=True) 
     c1,c2 = st.columns(2)
-    op = c1.selectbox('Select By',('---','Discount','Category','Region & State','Gender'))
+    op = c1.selectbox('Select By',('---','Discount','Region & State'))
     
     if op == '---':
         st.empty()
