@@ -1786,5 +1786,5 @@ if (options1 == '---') & (option2 == '---') & (variable == '---'):
     st.markdown("<h3 class = 'subheader'> DSC3263 : Independent Study in Data Science</h3>",unsafe_allow_html=True)
     div1, div2 = st.columns([2,1])
     div1.image("pics/segmentation.png",width=500)
-    div2.markdown("<div class = 'about'> <h4 class = 'group'>Group 4</h4><ul class = 'mem'><h6 class = 'member'>Sumedha Kulasekara (S/17/403)</h6><h6 class = 'member'>Lasantha Kulasooriya (S/17/404)</h6></ul></div>",unsafe_allow_html=True)  
+    div2.markdown("<div class = 'about'> <h4 class = 'group'>Group 3</h4><ul class = 'mem'><h6 class = 'member'>Sumedha Kulasekara (S/17/403)</h6><h6 class = 'member'>Lasantha Kulasooriya (S/17/404)</h6></ul></div>",unsafe_allow_html=True)  
     
