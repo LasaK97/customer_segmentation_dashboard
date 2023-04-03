@@ -807,7 +807,7 @@ elif variable == 'State':
                     )
             ))
         fig.update_layout({"title": 'No of Orders by Order State',
-                        "xaxis": {"title":"Product Category"},
+                        "xaxis": {"title":"States"},
                         "yaxis": {"title":" No of Orders"},
                         "showlegend": False}, 
                         title_x =0.3,
