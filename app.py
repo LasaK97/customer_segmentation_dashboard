@@ -14,7 +14,7 @@ import plotly.io as pio
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 import os
-import kaleido
+#import kaleido
 import json
 
 with open('style.css') as f:
