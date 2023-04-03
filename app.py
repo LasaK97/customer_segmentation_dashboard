@@ -29,7 +29,7 @@ st.markdown("<hr style = 'color:red;'>",unsafe_allow_html=True)
 dataset = "data/Amazon Sales FY2020-21.csv"
 
 # To Improve speed and cache data
-@st.cache_resource # type: ignore
+@st.cache_data(presist = True) # type: ignore
 def load_data(dataset):
 	df = pd.read_csv(os.path.join(dataset))
 	return df 
